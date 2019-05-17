@@ -1,0 +1,48 @@
+.jumbotron-billboard .img {
+    margin-bottom: 0px;
+    opacity: 0.8;
+    color: #fff;
+    background: #000 url("flag.jpg") top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.jumbotron h2 {margin-top:0;}
+.jumbotron {
+
+  position:relative;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.jumbotron .container {
+  margin-right: 0px;
+  margin-left: 0px;
+  position:relative;
+  z-index:2;
+}
+img{
+  width: 80px;
+  height: 80px;
+  margin-left:0px;
+}
+/*nav{
+  margin-top: 260px;
+}*/
+
+/*.mm{
+  margin-top: 310px;
+}
+*/
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+}
+
